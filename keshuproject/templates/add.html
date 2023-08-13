@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>form</h2>
+<form action="" method="post" >
+    {% csrf_token %}
+    <input type="text" name="name"  placeholder="Enter your username">
+   <p><b><a href="https:www.wikipedia.com">department</a>:</b>
+       <select class="form-control"></a>
+         <option value="1">computer science</option>
+         <option value="2">commerce</option>
+     </select>
+   </p>
+
+   <p><b><a href="#">course</a>:</b>
+       <select class="form-control"></a>
+         <option value="1">Web Designing </option>
+         <option value="2">Digital Marketing</option>
+           <option value="3">Data Entry</option>
+     </select>
+   </p>
+
+
+    <input type="text" name="year" placeholder="enter the year"><br>
+    <input type="date" name="Date" placeholder="enter the date"><br>
+    <input type="text" name="Age" placeholder="enter the age"><br>
+    <input type="text" name="number" placeholder="enter the phone number"><br>
+    <input type="text" name="mail" placeholder="enter the mail id"><br>
+    <input type="text" name="address" placeholder="enter the address"><br>
+
+    <label>Gender</label><input type="radio">male<input type="radio">female<br>
+    <input type="submit">
+</form>
+
+</body>
+</html>
